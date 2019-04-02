@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 
-$LOAD_PATH.push File.dirname(File.expand_path('lib', __FILE__))
+$LOAD_PATH.push File.expand_path('lib', File.dirname(__FILE__))
 require 'image_voodoo/version'
 
 Gem::Specification.new do |s|
