@@ -100,7 +100,7 @@ class ImageVoodoo
     block_given? ? yield(target) : target
   end
 
-  private def calculate_thumbnail_dimensions
+  def calculate_thumbnail_dimensions
     half = (width - height).abs / 2
     if width > height
       [half, 0, half + height, height]
